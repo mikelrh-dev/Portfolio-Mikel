@@ -35,8 +35,8 @@ footer, header, hgroup, menu, nav, section {
     max-width: 100%;    /* que no se pase del contenedor */
     height: auto;       /* mantiene proporción */
     display: block;
-    margin: 0 auto;     /* centra la imagen */
-    border-radius: 8px; /* opcional */
+    /*margin: 0 auto;     /* centra la imagen */
+    border-radius: 8px; */ /* opcional */
 }
 
 .logo-img {
@@ -259,6 +259,7 @@ em, i {
 p {
 	margin: 0 0 2em 0;
 	color: var(--text-secondary);
+	font-size: 1.3em;
 }
 
 h1, h2, h3, h4, h5, h6 {
