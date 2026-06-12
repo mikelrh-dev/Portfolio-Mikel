@@ -39,7 +39,25 @@
     "seeWiki": "See Wiki",
     "seeAll": "See all on GitHub",
     "webVersion": "Web Version",
-    "desktopVersion": "Desktop Version"
+    "desktopVersion": "Desktop Version",
+    "vespera": {
+      "desc": "Built during my internship to solve a real problem: small businesses were drowning in Excel sheets and disconnected tools. This ERP brings sales, purchases, warehouse and treasury into one place with real-time stock tracking, AI-powered insights and even a Telegram bot for instant KPI checks."
+    },
+    "valaquia": {
+      "desc": "Full-stack game store with Android client and Spring Boot REST API. Features game catalog, health tips per game, and secure file downloads with SHA-256 integrity verification."
+    },
+    "bookbugs": {
+      "desc": "Book & Bugs library management system built in two versions: web (PHP MVC with REST API) and desktop (JavaFX). Includes user auth, CRUD operations, connection pooling, and a consistent JSON contract."
+    },
+    "diy": {
+      "desc": "A comprehensive DIY tools management app that streamlines inventory and order processing. Customers can place orders through an intuitive interface while administrators manage stock and fulfill orders efficiently."
+    },
+    "ecodriveAd": {
+      "desc": "A web platform showcasing current electric vehicles with integrated guidance on government incentives like the MOVES plan. Helps customers make informed decisions and plan their EV purchases more effectively."
+    },
+    "ecodriveMgmt": {
+      "desc": "An electric vehicle discovery platform that helps buyers explore top EV models and create personalized budgets. Simplifies the decision-making process with integrated financial planning tools."
+    }
   },
   "contact": {
     "title": "Let's Talk",

@@ -39,7 +39,25 @@
     "seeWiki": "Ver Wiki",
     "seeAll": "Ver todo en GitHub",
     "webVersion": "Versión Web",
-    "desktopVersion": "Versión Escritorio"
+    "desktopVersion": "Versión Escritorio",
+    "vespera": {
+      "desc": "Desarrollado durante mis prácticas para resolver un problema real: las pequeñas empresas se ahogaban en hojas de Excel y herramientas desconectadas. Este ERP unifica ventas, compras, almacén y tesorería en un solo lugar, con seguimiento de stock en tiempo real, análisis impulsados por IA y un bot de Telegram para consultas rápidas de KPIs."
+    },
+    "valaquia": {
+      "desc": "Tienda de videojuegos full-stack con cliente Android y API REST en Spring Boot. Incluye catálogo de juegos, consejos de salud por juego y descargas seguras con verificación de integridad SHA-256."
+    },
+    "bookbugs": {
+      "desc": "Sistema de gestión bibliotecaria Book & Bugs en dos versiones: web (PHP MVC con API REST) y escritorio (JavaFX). Incluye autenticación de usuarios, operaciones CRUD, pool de conexiones y un contrato JSON consistente."
+    },
+    "diy": {
+      "desc": "Aplicación completa de gestión de herramientas DIY que optimiza el inventario y el procesamiento de pedidos. Los clientes realizan pedidos desde una interfaz intuitiva mientras los administradores gestionan el stock y los sirven eficientemente."
+    },
+    "ecodriveAd": {
+      "desc": "Plataforma web que muestra vehículos eléctricos actuales con información integrada sobre incentivos gubernamentales como el plan MOVES. Ayuda a los clientes a tomar decisiones informadas y planificar la compra de su vehículo eléctrico."
+    },
+    "ecodriveMgmt": {
+      "desc": "Plataforma de descubrimiento de vehículos eléctricos que ayuda a los compradores a explorar los mejores modelos y crear presupuestos personalizados. Simplifica la toma de decisiones con herramientas de planificación financiera integradas."
+    }
   },
   "contact": {
     "title": "Hablemos",
