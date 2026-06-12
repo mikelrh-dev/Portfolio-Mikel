@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "menu": "Menú",
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "close": "Cerrar"
+  },
+  "banner": {
+    "greeting": "Hola, soy Mikel",
+    "typed": "Desarrollador de Software",
+    "subtitle": "Desarrollador de aplicaciones multiplataforma apasionado por crear soluciones tecnológicas innovadoras y eficientes.",
+    "ctaWork": "Ver mi trabajo",
+    "ctaAbout": "Sobre mí",
+    "scroll": "Desplázate"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "p1": "Soy un desarrollador especializado en <strong>desarrollo de aplicaciones multiplataforma</strong>, apasionado por crear soluciones eficientes y adaptables que aporten valor real a los usuarios. Me considero una persona <strong>curiosa y en constante aprendizaje</strong>, siempre al día de las últimas tendencias tecnológicas para mantenerme actualizado y aplicar lo mejor en cada proyecto.",
+    "p2": "Además de la programación, el <strong>deporte y la disciplina</strong> son una parte esencial de mi vida, cualidades que traslado a mi trabajo diario: constancia, organización y compromiso para alcanzar objetivos ambiciosos.",
+    "p3": "Me motiva formar parte de proyectos donde pueda <strong>aportar innovación, trabajar en equipo y seguir creciendo profesionalmente</strong>, apuntando siempre a la excelencia técnica y la <strong>mejora continua</strong>.",
+    "link": "Ver mis proyectos"
+  },
+  "tech": {
+    "title": "Stack Tecnológico",
+    "intro": "Tecnologías y herramientas con las que trabajo en todo el ciclo de desarrollo.",
+    "languages": "Lenguajes",
+    "frontend": "Frontend",
+    "backend": "Backend y Bases de Datos",
+    "tools": "Herramientas y Plataformas"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "intro": "Una colección de proyectos que abarcan e-commerce, energías limpias y software empresarial. Cada uno me enseñó algo nuevo sobre cómo resolver problemas reales con código.",
+    "seeDemo": "Ver Demo",
+    "comingSoon": "Ver Demo — Próximamente",
+    "seeCode": "Ver Código",
+    "seeWiki": "Ver Wiki",
+    "seeAll": "Ver todo en GitHub",
+    "webVersion": "Versión Web",
+    "desktopVersion": "Versión Escritorio"
+  },
+  "contact": {
+    "title": "Hablemos",
+    "intro": "Si tienes una idea de proyecto, una oportunidad laboral o simplemente quieres saludar, no dudes en escribirme. Siempre estoy abierto a nuevas colaboraciones y retos.",
+    "nameLabel": "Nombre",
+    "emailLabel": "Correo electrónico",
+    "messageLabel": "Mensaje",
+    "submit": "Enviar mensaje",
+    "location": "Barakaldo, Vizcaya, España",
+    "copyright": "© 2025 Mikel. Todos los derechos reservados."
+  },
+  "meta": {
+    "title": "Mikel Romero — Portfolio Desarrollador Multiplataforma",
+    "description": "Mikel Romero — Desarrollador de aplicaciones multiplataforma especializado en ERP, Java, JavaScript y Velneo V37. Portfolio con proyectos de e-commerce, energías limpias y software empresarial.",
+    "ogTitle": "Mikel Romero — Portfolio de Desarrollo",
+    "ogDescription": "Desarrollador de aplicaciones multiplataforma apasionado por crear soluciones tecnológicas innovadoras y eficientes.",
+    "skipLink": "Saltar al contenido principal"
+  }
+}

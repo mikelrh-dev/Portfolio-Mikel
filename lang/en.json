@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact",
+    "close": "Close"
+  },
+  "banner": {
+    "greeting": "Hi, I'm Mikel",
+    "typed": "Software Developer",
+    "subtitle": "Multiplatform application developer passionate about creating innovative and efficient technological solutions.",
+    "ctaWork": "See My Work",
+    "ctaAbout": "About Me",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "I am a developer specialized in <strong>multiplatform application development</strong>, passionate about creating efficient and adaptable solutions that provide real value to users. I consider myself a <strong>curious and constantly learning person</strong>, always keeping up with the latest technological trends to stay updated and apply the best in each project.",
+    "p2": "Besides programming, <strong>sports and discipline</strong> are an essential part of my life, qualities I bring into my daily work: consistency, organization, and commitment to achieving ambitious goals.",
+    "p3": "I am motivated to be part of projects where I can <strong>contribute innovation, work in a team, and continue growing professionally</strong>, always aiming for technical excellence and <strong>continuous improvement</strong>.",
+    "link": "See my projects"
+  },
+  "tech": {
+    "title": "Technology Stack",
+    "intro": "Technologies and tools I work with across the full development lifecycle.",
+    "languages": "Languages",
+    "frontend": "Frontend",
+    "backend": "Backend & Databases",
+    "tools": "Tools & Platforms"
+  },
+  "projects": {
+    "title": "My Projects",
+    "intro": "A collection of projects spanning e-commerce, clean energy, and enterprise software. Each one taught me something new about solving real-world problems with code.",
+    "seeDemo": "See Demo",
+    "comingSoon": "See Demo — Coming Soon",
+    "seeCode": "See Code",
+    "seeWiki": "See Wiki",
+    "seeAll": "See all on GitHub",
+    "webVersion": "Web Version",
+    "desktopVersion": "Desktop Version"
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "intro": "If you have a project idea, a job opportunity, or just want to say hi, feel free to write to me. I am always open to new collaborations and challenges.",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "submit": "Send Message",
+    "location": "Barakaldo, Vizcaya, Spain",
+    "copyright": "© 2025 Mikel. All rights reserved."
+  },
+  "meta": {
+    "title": "Mikel Romero — Multiplatform Developer Portfolio",
+    "description": "Mikel Romero — Multiplatform application developer specializing in ERP, Java, JavaScript, and Velneo V37. Portfolio showcasing projects in e-commerce, clean energy, and enterprise software.",
+    "ogTitle": "Mikel Romero — Developer Portfolio",
+    "ogDescription": "Multiplatform application developer passionate about creating innovative and efficient technological solutions.",
+    "skipLink": "Skip to main content"
+  }
+}

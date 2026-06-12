@@ -1,0 +1,9 @@
+# Proyectos externos / pendientes (no pertenecen al portfolio)
+Proyectos pendientes/
+
+# SDD agent artifacts
+.atl/
+
+# OS junk
+.DS_Store
+Thumbs.db

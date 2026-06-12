@@ -167,15 +167,25 @@
 	const el = document.querySelector('.typing-text');
 	if (!el) return;
 
-	const words = ['Software Developer'];
+	let words = ['Software Developer'];
 	let wordIndex = 0;
 	let charIndex = 0;
 	let isDeleting = false;
 	const typeSpeed = 80;
 	const deleteSpeed = 40;
 	const pauseBetween = 2000;
+	let timeoutId = null;
+
+	window.__i18nTypedWord = 'Software Developer';
+
+	function updateWords() {
+		if (window.__i18nTypedWord) {
+			words = [window.__i18nTypedWord];
+		}
+	}
 
 	function type() {
+		updateWords();
 		const current = words[wordIndex];
 
 		if (isDeleting) {
@@ -188,19 +198,28 @@
 
 		if (!isDeleting && charIndex === current.length) {
 			isDeleting = true;
-			setTimeout(type, pauseBetween);
+			timeoutId = setTimeout(type, pauseBetween);
 			return;
 		}
 
 		if (isDeleting && charIndex === 0) {
 			isDeleting = false;
 			wordIndex = (wordIndex + 1) % words.length;
-			setTimeout(type, 300);
+			timeoutId = setTimeout(type, 300);
 			return;
 		}
 
-		setTimeout(type, isDeleting ? deleteSpeed : typeSpeed);
+		timeoutId = setTimeout(type, isDeleting ? deleteSpeed : typeSpeed);
 	}
+
+	window.__i18nRestartTyping = function() {
+		if (timeoutId) clearTimeout(timeoutId);
+		isDeleting = false;
+		charIndex = 0;
+		wordIndex = 0;
+		el.textContent = '';
+		setTimeout(type, 100);
+	};
 
 	// Start after page load
 	if (document.readyState === 'complete') {

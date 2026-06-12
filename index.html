@@ -14,27 +14,28 @@
 		
 	</head>
 	<body class="is-preload">
-		<a href="#page-wrapper" class="skip-link">Skip to main content</a>
+			<a href="#page-wrapper" class="skip-link" data-i18n="meta.skipLink">Skip to main content</a>
 
 		<div id="page-wrapper">
 
 				<header id="header" class="alt">
-						<h1><a href="index.html">My Portfolio</a></h1>
+						<h1><a href="index.html" data-i18n="nav.home">My Portfolio</a></h1>
 						<nav>
-							<a href="#menu">Menu</a>
+							<a href="#menu" data-i18n="nav.menu">Menu</a>
+							<a href="#" id="lang-toggle" class="lang-toggle" aria-label="Switch to Spanish">ES</a>
 						</nav>
 					</header>
 
 				<nav id="menu" aria-label="Navigation menu">
 						<div class="inner">
-							<h2>Menu</h2>
+							<h2 data-i18n="nav.menu">Menu</h2>
 							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="#one">About Me</a></li>
-								<li><a href="#four">Projects</a></li>
-								<li><a href="#footer">Contact</a></li>
+								<li><a href="index.html" data-i18n="nav.home">Home</a></li>
+								<li><a href="#one" data-i18n="nav.about">About Me</a></li>
+								<li><a href="#four" data-i18n="nav.projects">Projects</a></li>
+								<li><a href="#footer" data-i18n="nav.contact">Contact</a></li>
 							</ul>
-							<a href="#" class="close" aria-label="Close menu">Close</a>
+							<a href="#" class="close" aria-label="Close menu" data-i18n="nav.close">Close</a>
 						</div>
 					</nav>
 
@@ -51,25 +52,25 @@
         </div>
         </div>
 
-        <h2>Hi, I'm Mikel</h2>
+        <h2 data-i18n="banner.greeting">Hi, I'm Mikel</h2>
 
         <!-- Typing animation -->
         <p class="typing-line">
             <span class="typing-text"></span>
             <span class="typing-cursor" aria-hidden="true">|</span>
         </p>
-        <p class="hero-subtitle">Multiplatform application developer passionate about creating innovative and efficient technological solutions.</p>
+        <p class="hero-subtitle" data-i18n="banner.subtitle">Multiplatform application developer passionate about creating innovative and efficient technological solutions.</p>
 
         <!-- CTA buttons -->
         <div class="hero-actions">
-            <a href="#four" class="btn-hero btn-hero-primary">See My Work</a>
-            <a href="#one" class="btn-hero btn-hero-secondary">About Me</a>
+            <a href="#four" class="btn-hero btn-hero-primary" data-i18n="banner.ctaWork">See My Work</a>
+            <a href="#one" class="btn-hero btn-hero-secondary" data-i18n="banner.ctaAbout">About Me</a>
         </div>
     </div>
 
     <!-- Scroll indicator -->
     <div class="scroll-indicator" aria-hidden="true">
-        <span class="scroll-text">Scroll</span>
+        <span class="scroll-text" data-i18n="banner.scroll">Scroll</span>
         <span class="scroll-arrow"></span>
     </div>
 </section>
@@ -80,14 +81,14 @@
 						<section id="one" class="wrapper spotlight style1 reveal">
     <div class="inner">
         <div class="content">
-            <h2 class="major">About Me</h2>
-            <p>I am a developer specialized in <strong>multiplatform application development</strong>, passionate about creating efficient and adaptable solutions that provide real value to users. I consider myself a <strong>curious and constantly learning person</strong>, always keeping up with the latest technological trends to stay updated and apply the best in each project.</p>
+            <h2 class="major" data-i18n="about.title">About Me</h2>
+            <p data-i18n="about.p1" data-i18n-html>I am a developer specialized in <strong>multiplatform application development</strong>, passionate about creating efficient and adaptable solutions that provide real value to users. I consider myself a <strong>curious and constantly learning person</strong>, always keeping up with the latest technological trends to stay updated and apply the best in each project.</p>
 
-            <p>Besides programming, <strong>sports and discipline</strong> are an essential part of my life, qualities I bring into my daily work: consistency, organization, and commitment to achieving ambitious goals.</p>
+            <p data-i18n="about.p2" data-i18n-html>Besides programming, <strong>sports and discipline</strong> are an essential part of my life, qualities I bring into my daily work: consistency, organization, and commitment to achieving ambitious goals.</p>
 
-            <p>I am motivated to be part of projects where I can <strong>contribute innovation, work in a team, and continue growing professionally</strong>, always aiming for technical excellence and <strong>continuous improvement</strong>.</p>
+            <p data-i18n="about.p3" data-i18n-html>I am motivated to be part of projects where I can <strong>contribute innovation, work in a team, and continue growing professionally</strong>, always aiming for technical excellence and <strong>continuous improvement</strong>.</p>
 
-            <a href="#four" class="special">See my projects</a>
+            <a href="#four" class="special" data-i18n="about.link">See my projects</a>
         </div>
     </div>
 </section>
@@ -95,12 +96,12 @@
 						<section id="two" class="wrapper alt spotlight style2 reveal">
   <div class="inner">
     <div class="content">
-      <h2 class="major">Technology Stack</h2>
-      <p class="tech-intro">Technologies and tools I work with across the full development lifecycle.</p>
+      <h2 class="major" data-i18n="tech.title">Technology Stack</h2>
+      <p class="tech-intro" data-i18n="tech.intro">Technologies and tools I work with across the full development lifecycle.</p>
 
       <div class="tech-stack">
         <div class="tech-group">
-          <h3 class="tech-group-title">Languages</h3>
+          <h3 class="tech-group-title" data-i18n="tech.languages">Languages</h3>
           <div class="tech-items">
             <span class="tech-item">Java</span>
             <span class="tech-item">JavaScript</span>
@@ -111,7 +112,7 @@
         </div>
 
         <div class="tech-group">
-          <h3 class="tech-group-title">Frontend</h3>
+          <h3 class="tech-group-title" data-i18n="tech.frontend">Frontend</h3>
           <div class="tech-items">
             <span class="tech-item">HTML5</span>
             <span class="tech-item">CSS3</span>
@@ -120,7 +121,7 @@
         </div>
 
         <div class="tech-group">
-          <h3 class="tech-group-title">Backend &amp; Databases</h3>
+          <h3 class="tech-group-title" data-i18n="tech.backend">Backend &amp; Databases</h3>
           <div class="tech-items">
             <span class="tech-item">MySQL</span>
             <span class="tech-item">PostgreSQL</span>
@@ -130,7 +131,7 @@
         </div>
 
         <div class="tech-group">
-          <h3 class="tech-group-title">Tools &amp; Platforms</h3>
+          <h3 class="tech-group-title" data-i18n="tech.tools">Tools &amp; Platforms</h3>
           <div class="tech-items">
             <span class="tech-item">Git / GitHub</span>
             <span class="tech-item">Eclipse</span>
@@ -152,8 +153,8 @@
 
 									<section id="four" class="wrapper alt style1">
 										<div class="inner">
-											<h2 class="major">My Projects</h2>
-											<p>A collection of projects spanning e-commerce, clean energy, and enterprise software. Each one taught me something new about solving real-world problems with code.</p>
+											<h2 class="major" data-i18n="projects.title">My Projects</h2>
+											<p data-i18n="projects.intro">A collection of projects spanning e-commerce, clean energy, and enterprise software. Each one taught me something new about solving real-world problems with code.</p>
 											<section class="features">
 
 										<article class="reveal">
@@ -161,8 +162,8 @@
 											<h3 class="major">VESPERA SOLUTIONS</h3>
 											<p>Built during my internship to solve a real problem: small businesses were drowning in Excel sheets and disconnected tools. This ERP brings sales, purchases, warehouse and treasury into one place with real-time stock tracking, AI-powered insights and even a Telegram bot for instant KPI checks.</p>
 											<div class="tech-tags"><span class="tag">Velneo V37</span><span class="tag">Gemini AI</span><span class="tag">Telegram Bot</span></div>
-											<a href="https://vespera-solutions.onrender.com/" class="special" target="_blank">See Demo</a>
-											<a href="https://github.com/mikelrh-dev" style="margin-left: 10px;" class="button" target="_blank">See Wiki</a>
+											<a href="https://vespera-solutions.onrender.com/" class="special" target="_blank" data-i18n="projects.seeDemo">See Demo</a>
+											<a href="https://github.com/mikelrh-dev" style="margin-left: 10px;" class="button" target="_blank" data-i18n="projects.seeWiki">See Wiki</a>
 										</article>
 
 										<article class="reveal">
@@ -170,8 +171,8 @@
 											<h3 class="major">VALAQUIA STORE</h3>
 											<p>Full-stack game store with Android client and Spring Boot REST API. Features game catalog, health tips per game, and secure file downloads with SHA-256 integrity verification.</p>
 											<div class="tech-tags"><span class="tag">Android</span><span class="tag">Spring Boot</span><span class="tag">Java</span><span class="tag">Retrofit</span><span class="tag">MySQL</span></div>
-											<a href="#" class="special">See Demo — Coming Soon</a>
-											<a href="https://github.com/mikelrh-dev/Proyecto_Cliente_PMD" class="button" target="_blank">See Code</a>
+											<a href="#" class="special" data-i18n="projects.comingSoon">See Demo — Coming Soon</a>
+											<a href="https://github.com/mikelrh-dev/Proyecto_Cliente_PMD" class="button" target="_blank" data-i18n="projects.seeCode">See Code</a>
 										</article>
 
 										<article class="reveal">
@@ -179,11 +180,11 @@
 											<h3 class="major">BOOK & BUGS</h3>
 											<p>Book & Bugs library management system built in two versions: web (PHP MVC with REST API) and desktop (JavaFX). Includes user auth, CRUD operations, connection pooling, and a consistent JSON contract.</p>
 											<div class="tech-tags"><span class="tag">PHP</span><span class="tag">JavaFX</span><span class="tag">MySQL</span><span class="tag">MVC</span><span class="tag">REST API</span></div>
-											<a href="#" class="special">See Demo — Coming Soon</a>
-											<a href="#" class="button dropdown-trigger">See Code <span class="dropdown-arrow">▾</span></a>
+											<a href="#" class="special" data-i18n="projects.comingSoon">See Demo — Coming Soon</a>
+											<a href="#" class="button dropdown-trigger"><span data-i18n="projects.seeCode">See Code</span> <span class="dropdown-arrow">▾</span></a>
 											<div class="dropdown-menu">
-												<a href="https://github.com/Ander719/Reto_Libreria" target="_blank">Web Version</a>
-												<a href="https://github.com/AGL-12/Reto2_Libreria" target="_blank">Desktop Version</a>
+												<a href="https://github.com/Ander719/Reto_Libreria" target="_blank" data-i18n="projects.webVersion">Web Version</a>
+												<a href="https://github.com/AGL-12/Reto2_Libreria" target="_blank" data-i18n="projects.desktopVersion">Desktop Version</a>
 											</div>
 										</article>
 
@@ -192,8 +193,8 @@
 											<h3 class="major">DIY TOOLS</h3>
 											<p>A comprehensive DIY tools management app that streamlines inventory and order processing. Customers can place orders through an intuitive interface while administrators manage stock and fulfill orders efficiently.</p>
 											<div class="tech-tags"><span class="tag">Java</span><span class="tag">MySQL</span><span class="tag">Hibernate</span></div>
-											<a href="https://youtu.be/EylwIIjRVHQ" class="special" target="_blank">See Demo</a>
-											<a href="https://github.com/AGL-12/Reto_final_Tienda" style="margin-left: 10px;" class="button" target="_blank">See Code</a>
+											<a href="https://youtu.be/EylwIIjRVHQ" class="special" target="_blank" data-i18n="projects.seeDemo">See Demo</a>
+											<a href="https://github.com/AGL-12/Reto_final_Tienda" style="margin-left: 10px;" class="button" target="_blank" data-i18n="projects.seeCode">See Code</a>
 										</article>
 
 										<article class="reveal">
@@ -201,8 +202,8 @@
 											<h3 class="major">ECODRIVE ADVERTISING</h3>
 											<p>A web platform showcasing current electric vehicles with integrated guidance on government incentives like the MOVES plan. Helps customers make informed decisions and plan their EV purchases more effectively.</p>
 											<div class="tech-tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JS</span></div>
-											<a href="http://eco-drive-project.netlify.app" class="special" target="_blank">See Demo</a>
-											<a href="https://github.com/mikelrh-dev/PrimerRetoLms" style="margin-left: 10px;" class="button" target="_blank">See Code</a>
+											<a href="http://eco-drive-project.netlify.app" class="special" target="_blank" data-i18n="projects.seeDemo">See Demo</a>
+											<a href="https://github.com/mikelrh-dev/PrimerRetoLms" style="margin-left: 10px;" class="button" target="_blank" data-i18n="projects.seeCode">See Code</a>
 										</article>
 
 										<article class="reveal">
@@ -210,13 +211,13 @@
 											<h3 class="major">ECODRIVE MANAGEMENT</h3>
 											<p>An electric vehicle discovery platform that helps buyers explore top EV models and create personalized budgets. Simplifies the decision-making process with integrated financial planning tools.</p>
 											<div class="tech-tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JS</span></div>
-											<a href="https://youtu.be/b3ISmCPnLTw" class="special" target="_blank">See Demo</a>
-											<a href="https://github.com/mikelrh-dev/ecodrive" style="margin-left: 10px;" class="button" target="_blank">See Code</a>
+											<a href="https://youtu.be/b3ISmCPnLTw" class="special" target="_blank" data-i18n="projects.seeDemo">See Demo</a>
+											<a href="https://github.com/mikelrh-dev/ecodrive" style="margin-left: 10px;" class="button" target="_blank" data-i18n="projects.seeCode">See Code</a>
 										</article>
 
 									</section>
 									<ul class="actions">
-										<li><a href="https://github.com/mikelrh-dev" class="button">See all on GitHub</a></li>
+										<li><a href="https://github.com/mikelrh-dev" class="button" data-i18n="projects.seeAll">See all on GitHub</a></li>
 									</ul>
 								</div>
 							</section>
@@ -225,40 +226,41 @@
 
 				<section id="footer">
 						<div class="inner">
-							<h2 class="major">Let's Talk</h2>
-							<p>If you have a project idea, a job opportunity, or just want to say hi, feel free to write to me. I am always open to new collaborations and challenges.</p>
+							<h2 class="major" data-i18n="contact.title">Let's Talk</h2>
+							<p data-i18n="contact.intro">If you have a project idea, a job opportunity, or just want to say hi, feel free to write to me. I am always open to new collaborations and challenges.</p>
 							<form method="post" action="https://formspree.io/f/xeoldrbg"> <div class="fields">
 									<div class="field">
-										<label for="name">Name</label>
+										<label for="name" data-i18n="contact.nameLabel">Name</label>
 										<input type="text" name="name" id="name" />
 									</div>
 									<div class="field">
-										<label for="email">Email</label>
+										<label for="email" data-i18n="contact.emailLabel">Email</label>
 										<input type="email" name="email" id="email" />
 									</div>
 									<div class="field">
-										<label for="message">Message</label>
+										<label for="message" data-i18n="contact.messageLabel">Message</label>
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Send Message" data-i18n-value="contact.submit" /></li>
 								</ul>
 							</form>
 							<ul class="contact">
-								<li><i class="fa-solid fa-location-dot"></i> Barakaldo, Vizcaya, Spain</li>
+								<li><i class="fa-solid fa-location-dot"></i> <span data-i18n="contact.location">Barakaldo, Vizcaya, Spain</span></li>
         						<li><i class="fa-solid fa-envelope"></i> <a href="mailto:mikelromerohomobono@gmail.com">mikelromerohomobono@gmail.com</a></li>
 						        <li><i class="fa-brands fa-github"></i> <a href="https://github.com/mikelrh-dev" target="_blank">github.com/mikelrh-dev</a></li>
 								<li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/mikel-romero-homobono-760878337/" target="_blank">LinkedIn</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; 2025 Mikel. All rights reserved.</li>
+								<li data-i18n="contact.copyright">&copy; 2025 Mikel. All rights reserved.</li>
 							</ul>
 						</div>
 					</section>
 
 			</div>
 
+		<script src="assets/js/i18n.js"></script>
 		<script src="assets/js/jquery.min.js" defer></script>
 			<script src="assets/js/jquery.scrollex.min.js" defer></script>
 			<script src="assets/js/browser.min.js" defer></script>

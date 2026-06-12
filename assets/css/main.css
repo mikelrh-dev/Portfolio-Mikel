@@ -1076,6 +1076,30 @@ button,
 	box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
 }
 
+/* Language Toggle */
+#header nav a#lang-toggle {
+	text-decoration: none;
+	font-size: 0.85em;
+	font-weight: 700;
+	padding: 0 0.9em;
+	margin-left: 0.5em;
+	border-radius: 6px;
+	border: 1px solid var(--border-color);
+	background: transparent;
+	color: var(--text-secondary);
+	transition: all 0.3s ease;
+	letter-spacing: 0;
+	min-width: 2.5em;
+	text-align: center;
+}
+
+#header nav a#lang-toggle:hover {
+	background: var(--accent-primary);
+	color: var(--primary-bg);
+	border-color: var(--accent-primary);
+	box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+}
+
 /* Banner */
 
 #banner {
